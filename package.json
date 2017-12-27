@@ -14,7 +14,8 @@
   "scripts": {
     "build": "rollup -c",
     "lint": "eslint --ext .js --ignore-path .gitignore --ignore-pattern rollup.config.js .",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "prepare": "npm run build"
   },
   "author": "James Canning <james@jamescanning.com> (http://brudil.com)",
   "license": "MIT",
